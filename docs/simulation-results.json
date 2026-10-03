@@ -1,0 +1,3694 @@
+{
+  "boundary": "仅验证本地模拟器；不包含真实语音识别和车辆执行",
+  "results": [
+    {
+      "id": "window-open",
+      "name": "指定车窗打开",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "windows.rearLeft",
+        "value": 100
+      },
+      "message": "二排左侧车窗已打开至 100%。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 100,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "二排左侧车窗 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "二排左侧车窗已打开至 100%。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.447Z"
+    },
+    {
+      "id": "window-percent",
+      "name": "百分比开窗",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "windows.passenger",
+        "value": 50
+      },
+      "message": "副驾车窗已打开至 50%。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 50,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾车窗 · set",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾车窗已打开至 50%。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.484Z"
+    },
+    {
+      "id": "window-range",
+      "name": "拒绝越界开度",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "windows.passenger",
+        "value": 0
+      },
+      "message": "车窗开度需要在 0% 到 100% 之间。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾车窗 · set",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "车窗开度需要在 0% 到 100% 之间。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.521Z"
+    },
+    {
+      "id": "door-parked",
+      "name": "开门需确认",
+      "pass": true,
+      "status": "clarify",
+      "expected": {
+        "status": "clarify",
+        "path": "doors.passenger",
+        "value": false
+      },
+      "message": "即将打开副驾车门，请说“确认”或“取消”。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾车门 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "即将打开副驾车门，请说“确认”或“取消”。",
+          "status": "pending"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.558Z"
+    },
+    {
+      "id": "door-confirm",
+      "name": "确认后开门",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "doors.passenger",
+        "value": true
+      },
+      "message": "副驾车门已打开。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": true,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾车门 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾车门已打开。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.595Z"
+    },
+    {
+      "id": "door-cancel",
+      "name": "取消不执行",
+      "pass": true,
+      "status": "cancelled",
+      "expected": {
+        "status": "cancelled",
+        "path": "doors.passenger",
+        "value": false
+      },
+      "message": "已取消，本次没有改变车辆状态。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "已取消，本次没有改变车辆状态。",
+          "status": "cancelled"
+        },
+        {
+          "label": "检查条件",
+          "detail": "已取消，本次没有改变车辆状态。",
+          "status": "cancelled"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.633Z"
+    },
+    {
+      "id": "door-moving",
+      "name": "行驶中拒绝开门",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "doors.passenger",
+        "value": false
+      },
+      "message": "当前模拟车态不满足条件：请停车并切换到 P 挡后再操作。",
+      "before": {
+        "gear": "D",
+        "speed": 35
+      },
+      "after": {
+        "gear": "D",
+        "speed": 35,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾车门 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "当前模拟车态不满足条件：请停车并切换到 P 挡后再操作。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.671Z"
+    },
+    {
+      "id": "temperature",
+      "name": "分区温度",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "climate.passenger",
+        "value": 24
+      },
+      "message": "副驾温度已设为 24 度。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾温度 · set",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾温度已设为 24 度。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.709Z"
+    },
+    {
+      "id": "temperature-followup",
+      "name": "连续指代",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "climate.passenger",
+        "value": 23
+      },
+      "message": "副驾温度已设为 23 度。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 23,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾温度 · set",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾温度已设为 23 度。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.748Z"
+    },
+    {
+      "id": "speaker",
+      "name": "按发话位置控制",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "climate.rearRight",
+        "value": 22
+      },
+      "message": "后排温区温度已设为 22 度。",
+      "before": {
+        "speaker": "rearRight"
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "rearRight",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 22,
+          "rearRight": 22,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "二排右侧温度 · set",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "后排温区温度已设为 22 度。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.785Z"
+    },
+    {
+      "id": "ambiguous",
+      "name": "目标不明时追问",
+      "pass": true,
+      "status": "clarify",
+      "expected": {
+        "status": "clarify"
+      },
+      "message": "请说明要控制哪个座位的座椅，例如主驾或副驾。",
+      "before": {
+        "speaker": "unknown"
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "unknown",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "座椅 · massage",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "请说明要控制哪个座位的座椅，例如主驾或副驾。",
+          "status": "pending"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.828Z"
+    },
+    {
+      "id": "target-followup",
+      "name": "补充目标后执行",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "seats.passenger.massage",
+        "value": true
+      },
+      "message": "副驾座椅按摩已开启。",
+      "before": {
+        "speaker": "unknown"
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "unknown",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": true
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾座椅 · massage",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾座椅按摩已开启。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.866Z"
+    },
+    {
+      "id": "heat-vent",
+      "name": "加热通风互斥",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "seats.passenger.heat",
+        "value": 0
+      },
+      "message": "副驾座椅通风已设为 2 挡。 加热已关闭。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 2,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾座椅 · vent",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾座椅通风已设为 2 挡。 加热已关闭。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.905Z"
+    },
+    {
+      "id": "third-massage",
+      "name": "三排能力边界",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "seats.thirdLeft.massage",
+        "value": false
+      },
+      "message": "本车型资料未确认三排座椅通风或按摩，仿真中不开放此操作。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "三排左侧座椅 · massage",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "本车型资料未确认三排座椅通风或按摩，仿真中不开放此操作。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.943Z"
+    },
+    {
+      "id": "seat-recline",
+      "name": "靠背动作",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "seats.passenger.recline",
+        "value": 0.65
+      },
+      "message": "副驾座椅靠背已调整。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0.65,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾座椅 · recline",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾座椅靠背已调整。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:47.981Z"
+    },
+    {
+      "id": "ambient-color",
+      "name": "氛围灯颜色",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "lights.color",
+        "value": "#8cb5f5"
+      },
+      "message": "氛围灯颜色已更新。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#8cb5f5",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "氛围灯 · color",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "氛围灯颜色已更新。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.018Z"
+    },
+    {
+      "id": "rear-screen",
+      "name": "屏幕独立控制",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "media.playing",
+        "value": false
+      },
+      "message": "后排娱乐屏已展开。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": true,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "后排娱乐屏 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "后排娱乐屏已展开。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.055Z"
+    },
+    {
+      "id": "oxygen-unavailable",
+      "name": "未启用制氧配置",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "oxygen",
+        "value": false
+      },
+      "message": "当前演示配置未启用制氧，无法执行。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "制氧 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "当前演示配置未启用制氧，无法执行。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.092Z"
+    },
+    {
+      "id": "screen-unavailable",
+      "name": "缺少屏幕配置",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "rearScreen",
+        "value": false
+      },
+      "message": "当前演示配置未启用后排娱乐屏，无法执行。",
+      "before": {
+        "capabilities": {
+          "rearScreen": false
+        }
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": false,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "后排娱乐屏 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "当前演示配置未启用后排娱乐屏，无法执行。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.131Z"
+    },
+    {
+      "id": "offline",
+      "name": "服务离线",
+      "pass": true,
+      "status": "error",
+      "expected": {
+        "status": "error",
+        "path": "windows.driver",
+        "value": 0
+      },
+      "message": "模拟服务离线，指令未执行；恢复连接后可重试。",
+      "before": {
+        "fault": "offline"
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": "offline",
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "主驾车窗 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "模拟服务离线，指令未执行；恢复连接后可重试。",
+          "status": "error"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.171Z"
+    },
+    {
+      "id": "execution-failure",
+      "name": "工具执行失败",
+      "pass": true,
+      "status": "error",
+      "expected": {
+        "status": "error",
+        "path": "climate.passenger",
+        "value": 24
+      },
+      "message": "模拟车辆工具执行失败，车辆状态保持不变。",
+      "before": {
+        "fault": "execution"
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": "execution",
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾温度 · set",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "模拟车辆工具执行失败，车辆状态保持不变。",
+          "status": "error"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.207Z"
+    },
+    {
+      "id": "rest-low-battery",
+      "name": "低电量拒绝小憩",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "scene",
+        "value": "normal"
+      },
+      "message": "小憩模式要求电量高于 20%，请先补充电量。",
+      "before": {
+        "battery": 20
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 20,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "情景模式 · start",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "小憩模式要求电量高于 20%，请先补充电量。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.245Z"
+    },
+    {
+      "id": "rest-window-lock",
+      "name": "小憩中门窗限制",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "windows.driver",
+        "value": 0
+      },
+      "message": "小憩模式下暂停语音门窗控制，请先退出小憩模式。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "rest",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0.65,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 1
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "主驾车窗 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "小憩模式下暂停语音门窗控制，请先退出小憩模式。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.282Z"
+    },
+    {
+      "id": "scene-restore",
+      "name": "场景退出恢复",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "rearScreen",
+        "value": false
+      },
+      "message": "已退出情景模式，恢复进入模式前的座舱设置。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "情景模式 · stop",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "已退出情景模式，恢复进入模式前的座舱设置。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.321Z"
+    },
+    {
+      "id": "child-lock",
+      "name": "儿童锁门禁",
+      "pass": true,
+      "status": "blocked",
+      "expected": {
+        "status": "blocked",
+        "path": "doors.rearLeft",
+        "value": false
+      },
+      "message": "后排儿童锁已开启，本原型暂停后排门窗控制。",
+      "before": {
+        "childLock": true
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": true,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "二排左侧车门 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "后排儿童锁已开启，本原型暂停后排门窗控制。",
+          "status": "blocked"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.359Z"
+    },
+    {
+      "id": "compound",
+      "name": "复合指令",
+      "pass": true,
+      "status": "success",
+      "expected": {
+        "status": "success",
+        "path": "windows.passenger",
+        "value": 0
+      },
+      "message": "副驾温度已设为 22 度。 副驾车窗已关闭。",
+      "before": {
+        "windows": {
+          "passenger": 50
+        }
+      },
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 22,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "副驾温度 · set；副驾车窗 · close",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "配置与模拟车态检查通过",
+          "status": "success"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "副驾温度已设为 22 度。 副驾车窗已关闭。",
+          "status": "success"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.396Z"
+    },
+    {
+      "id": "compound-reject",
+      "name": "复合指令完整校验",
+      "pass": true,
+      "status": "unsupported",
+      "expected": {
+        "status": "unsupported",
+        "path": "windows.driver",
+        "value": 0
+      },
+      "message": "这句话暂不在本地仿真支持范围内。可以试试“副驾温度调到24度”或“打开左后车窗”。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "主驾车窗 · open",
+          "status": "success"
+        },
+        {
+          "label": "检查条件",
+          "detail": "这句话暂不在本地仿真支持范围内。可以试试“副驾温度调到24度”或“打开左后车窗”。",
+          "status": "unsupported"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.434Z"
+    },
+    {
+      "id": "unsupported",
+      "name": "未知指令不假成功",
+      "pass": true,
+      "status": "unsupported",
+      "expected": {
+        "status": "unsupported"
+      },
+      "message": "这句话暂不在本地仿真支持范围内。可以试试“副驾温度调到24度”或“打开左后车窗”。",
+      "before": {},
+      "after": {
+        "gear": "P",
+        "speed": 0,
+        "battery": 82,
+        "speaker": "driver",
+        "scene": "normal",
+        "capabilities": {
+          "electricDoors": true,
+          "rearScreen": true,
+          "fragrance": true,
+          "oxygen": false
+        },
+        "fault": null,
+        "windows": {
+          "driver": 0,
+          "passenger": 0,
+          "rearLeft": 0,
+          "rearRight": 0
+        },
+        "doors": {
+          "driver": false,
+          "passenger": false,
+          "rearLeft": false,
+          "rearRight": false
+        },
+        "seats": {
+          "driver": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "passenger": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "rearRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdLeft": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          },
+          "thirdRight": {
+            "position": 0,
+            "recline": 0,
+            "heat": 0,
+            "vent": 0,
+            "massage": false
+          }
+        },
+        "climate": {
+          "power": true,
+          "driver": 24,
+          "passenger": 24,
+          "rearLeft": 24,
+          "rearRight": 24,
+          "fan": 2
+        },
+        "lights": {
+          "ambient": true,
+          "color": "#b3cda4",
+          "reading": {
+            "driver": false,
+            "passenger": false,
+            "rearLeft": false,
+            "rearRight": false,
+            "thirdLeft": false,
+            "thirdRight": false
+          }
+        },
+        "rearScreen": false,
+        "shade": 0,
+        "fragrance": false,
+        "oxygen": false,
+        "media": {
+          "playing": false,
+          "volume": 35
+        },
+        "childLock": false,
+        "chargePort": false
+      },
+      "steps": [
+        {
+          "label": "理解需求",
+          "detail": "这句话暂不在本地仿真支持范围内。可以试试“副驾温度调到24度”或“打开左后车窗”。",
+          "status": "unsupported"
+        },
+        {
+          "label": "检查条件",
+          "detail": "这句话暂不在本地仿真支持范围内。可以试试“副驾温度调到24度”或“打开左后车窗”。",
+          "status": "unsupported"
+        },
+        {
+          "label": "执行与反馈",
+          "detail": "未改变车辆状态",
+          "status": "pending"
+        }
+      ],
+      "at": "2026-10-02T12:37:48.471Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "g9-cockpit-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "参考享界 G9 的三维座舱与小艺公开功能教学模拟器",
+  "scripts": {
+    "dev": "node server.mjs",
+    "start": "node server.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "license": "MIT"
+}

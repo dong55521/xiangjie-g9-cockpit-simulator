@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+.env*
+reports/*.json
+!.env.example
+
+# 本机日志、缓存及交付压缩文件
+*.log
+*.zip
+*.bundle
+coverage/
+.cache/

@@ -1,0 +1,11 @@
+import {cpSync,mkdirSync,readFileSync,writeFileSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
+const dist=path.join(root,'dist');mkdirSync(dist,{recursive:true});
+for(const f of ['index.html','style.css','app.js','engine.js','scene.js','studio.js','model-seats.js','model-dashboard.js','model-body.js','model-exterior.js','vehicle-assembly.js','screen-ui.js','screen-session.js','services.js','catalog.js','speech.js','LICENSE','THIRD_PARTY_NOTICES.md'])cpSync(path.join(root,f),path.join(dist,f));
+cpSync(path.join(root,'docs'),path.join(dist,'docs'),{recursive:true});
+for(const f of ['build','examples/jsm'])cpSync(path.join(root,'node_modules/three',f),path.join(dist,'vendor/three',f),{recursive:true});
+const html=readFileSync(path.join(dist,'index.html'),'utf8').replaceAll('/node_modules/three/','./vendor/three/').replace('href="/style.css"','href="./style.css"').replace('src="/app.js"','src="./app.js"');writeFileSync(path.join(dist,'index.html'),html);
+cpSync(path.join(root,'node_modules/three/LICENSE'),path.join(dist,'vendor/three/LICENSE'));
+console.log('已生成 dist 静态网页；可由任意静态网站服务打开。');

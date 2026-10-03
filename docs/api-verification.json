@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-10-02T15:12:28Z",
+  "verificationDate": "2026-10-02",
+  "scope": "当前会话真实 DeepSeek 与高德接口验证；所有车辆执行均为本地模拟，地图坐标为演示点，未定位。",
+  "checks": [
+    {
+      "id": "amap-place-text",
+      "provider": "amap",
+      "requestType": "search",
+      "apiPath": "/v5/place/text",
+      "request": {
+        "keywords": "杭州西湖",
+        "city": "杭州",
+        "pageSize": 5
+      },
+      "success": false,
+      "errorCode": "10009",
+      "count": 0,
+      "evidence": "已收到高德真实JSON响应；未取得地点结果。"
+    },
+    {
+      "id": "amap-driving-route",
+      "provider": "amap",
+      "requestType": "route",
+      "apiPath": "/v5/direction/driving",
+      "request": {
+        "origin": [
+          120.212,
+          30.291
+        ],
+        "originLabel": "杭州东站示例点",
+        "destination": [
+          120.149,
+          30.251
+        ],
+        "destinationLabel": "西湖附近演示点，非成功搜索取得的目的地",
+        "showFields": [
+          "cost",
+          "polyline"
+        ],
+        "strategy": 32
+      },
+      "success": false,
+      "errorCode": "10009",
+      "count": 0,
+      "evidence": "已收到高德真实JSON响应；未取得路线或路线折线。"
+    },
+    {
+      "id": "deepseek-browser-temperature",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "requestType": "assistant",
+      "query": "副驾有点热，帮我把空调调到22度",
+      "success": true,
+      "observedAt": "2026-10-02T23:14:14+08:00",
+      "evidence": "浏览器真实调用返回1个动作；本地模拟执行回执为副驾温度22度，记录标注DeepSeek理解。"
+    },
+    {
+      "id": "deepseek-browser-confirmation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "requestType": "assistant",
+      "query": "把主驾车窗打开，再打开副驾车门",
+      "success": true,
+      "observedAt": "2026-10-02T23:14:42+08:00",
+      "evidence": "真实调用返回2个动作；确认前回执明确车辆状态未改变；点击确认后本地回执为主驾车窗100%、副驾车门打开。"
+    },
+    {
+      "id": "deepseek-browser-navigation",
+      "provider": "deepseek",
+      "model": "deepseek-flash",
+      "requestType": "assistant",
+      "query": "帮我搜索杭州西湖",
+      "success": true,
+      "evidence": "实际浏览器转入地点搜索，关键词西湖、城市杭州；后续高德返回10009，不视为导航成功。"
+    }
+  ],
+  "credentialComparison": {
+    "comparedVariables": [
+      "NAV_AMAP_WEB_KEY",
+      "NAV_AMAP_JS_KEY"
+    ],
+    "equal": true,
+    "valuesRecorded": false
+  },
+  "interpretation": {
+    "errorCode": "10009",
+    "officialMeaning": "请求key与绑定平台不符",
+    "registeredPlatformConfirmed": false,
+    "note": "官方将JS API密钥用于Web服务作为例子；单凭10009或两个本地字段同值，不能确定控制台登记的具体平台。"
+  },
+  "sources": [
+    "https://lbs.amap.com/api/webservice/guide/tools/info",
+    "https://lbs.amap.com/api/webservice/guide/api-advanced/newpoisearch",
+    "https://lbs.amap.com/api/webservice/guide/api/newroute"
+  ]
+}
